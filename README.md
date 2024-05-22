@@ -28,13 +28,13 @@ Session.CLIENT_ACKNOWLEDGE - 42 нс (message.acknowledge())
 
 использовать: vm://broker
 
-Неперсистентные
+Неперсистентные                                                                                                                           
 Session.SESSION_TRANSACTED - 30 нс (session.commit())                                                                                     
 Session.AUTO_ACKNOWLEDGE - 21 нс                                                                                                          
 Session.DUPS_OK_ACKNOWLEDGE - 22 нс (message.acknowledge())                                                                               
 Session.CLIENT_ACKNOWLEDGE - 24 нс                                                                                                        
 
-Персистентные
+Персистентные                                                                                                                             
 Session.SESSION_TRANSACTED - 42 нс (session.commit())                                                                                     
 Session.AUTO_ACKNOWLEDGE - 26 нс                                                                                                          
 Session.DUPS_OK_ACKNOWLEDGE - 26 нс                                                                                                       
