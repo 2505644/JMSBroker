@@ -1,0 +1,27 @@
+2024-05-21 10:47:34 ERROR Main:27 - MODE = Session.CLIENT_ACKNOWLEDGE
+2024-05-21 10:47:34 ERROR Main:28 - IS_TRANSACTED = false
+2024-05-21 10:47:34 ERROR Main:29 - IS_PERSISTANT = true
+2024-05-21 10:47:36 ERROR Sender:57 - .......................................................................
+2024-05-21 10:47:36 ERROR Sender:58 - javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2024-05-21 10:47:36 ERROR Sender:59 - .......................................................................
+2024-05-21 10:47:36 ERROR Receiver:57 - .......................................................................
+2024-05-21 10:47:36 ERROR Receiver:58 - javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2024-05-21 10:47:36 ERROR Receiver:59 - .......................................................................
+2024-05-21 10:47:54 ERROR Main:27 - MODE = Session.CLIENT_ACKNOWLEDGE
+2024-05-21 10:47:54 ERROR Main:28 - IS_TRANSACTED = false
+2024-05-21 10:47:54 ERROR Main:29 - IS_PERSISTANT = true
+2024-05-21 10:47:55 ERROR Sender:50 - Message has been sent success. Message contains that - 'Message for send'
+2024-05-21 10:47:55 ERROR Receiver:49 - Success received message. Message contains that - 'Message for send'
+2024-05-21 10:48:11 ERROR Main:27 - MODE = Session.CLIENT_ACKNOWLEDGE
+2024-05-21 10:48:11 ERROR Main:28 - IS_TRANSACTED = false
+2024-05-21 10:48:11 ERROR Main:29 - IS_PERSISTANT = true
+2024-05-21 10:48:12 ERROR Broker:40 - .......................................................................
+2024-05-21 10:48:12 ERROR Broker:41 - java.lang.IllegalMonitorStateException: current thread is not owner
+2024-05-21 10:48:12 ERROR Broker:42 - .......................................................................
+2024-05-21 10:48:12 ERROR Sender:50 - Message has been sent success. Message contains that - 'Message for send'
+2024-05-21 10:48:12 ERROR Receiver:49 - Success received message. Message contains that - 'Message for send'
+2024-05-21 11:01:58 ERROR Main:27 - MODE = Session.CLIENT_ACKNOWLEDGE
+2024-05-21 11:01:58 ERROR Main:28 - IS_TRANSACTED = false
+2024-05-21 11:01:58 ERROR Main:29 - IS_PERSISTANT = true
+2024-05-21 11:02:00 ERROR Sender:50 - Message has been sent success. Message contains that - 'Message for send'
+2024-05-21 11:02:00 ERROR Receiver:49 - Success received message. Message contains that - 'Message for send'
