@@ -7,17 +7,17 @@
 
 Использовать: tcp://localhost:61616
 
-Неперсистентные
-Session.SESSION_TRANSACTED - 27 нс (session.commit())
-Session.AUTO_ACKNOWLEDGE - 22 нс
-Session.DUPS_OK_ACKNOWLEDGE - 23 нс (message.acknowledge())
-Session.CLIENT_ACKNOWLEDGE - 23 нс
+Неперсистентные                                                                                                                           
+Session.SESSION_TRANSACTED - 27 нс (session.commit())                                                                                     
+Session.AUTO_ACKNOWLEDGE - 22 нс                                                                                                          
+Session.DUPS_OK_ACKNOWLEDGE - 23 нс (message.acknowledge())                                                                               
+Session.CLIENT_ACKNOWLEDGE - 23 нс                                                                                                        
 
-Персистентные
+Персистентные                                                                                                                             
 Session.SESSION_TRANSACTED - 49 нс (session.commit())
-Session.AUTO_ACKNOWLEDGE - 30 нс
-Session.DUPS_OK_ACKNOWLEDGE - 36 нс
-Session.CLIENT_ACKNOWLEDGE - 42 нс (message.acknowledge())
+Session.AUTO_ACKNOWLEDGE - 30 нс                                                                                                          
+Session.DUPS_OK_ACKNOWLEDGE - 36 нс                                                                                                       
+Session.CLIENT_ACKNOWLEDGE - 42 нс (message.acknowledge())                                                                                
 
 
 Задача 2
